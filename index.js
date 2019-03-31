@@ -20,7 +20,7 @@ return factArray
 function iLoveTheBeatles(number){
   var Earray =[]
   do{Earray.push("I love the Beatles!");
-  number++
+  ++number
   }while(number<=15)
 }
 

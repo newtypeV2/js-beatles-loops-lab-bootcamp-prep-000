@@ -17,6 +17,13 @@ function johnLennonFacts(factArray){
 return factArray
 }
 
+function iLoveTheBeatles(number){
+  var Earray =[]
+  do{Earray.push("I love the Beatles!");
+  number++
+  }while(number<15)
+}
+
 
 //testing purposes
 for(var i=0;i<musicians.length;i++){

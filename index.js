@@ -12,7 +12,7 @@ function johnLennonFacts(factArray){
   var count = 0
   while(count<factArray.length){
     factArray[count]=factArray[count]+"!!!";
-    ++count;
+    count++;
   }
 return factArray
 }
@@ -21,7 +21,6 @@ function iLoveTheBeatles(number){
   var Earray =[]
   do{Earray.push("I love the Beatles!");
   console.log(number++)
-  console.log("after:" + number)
   }while(number<15)
 return Earray
 }

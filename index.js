@@ -11,7 +11,7 @@ return array
 function johnLennonFacts(factArray){
   var count = 0
   while(count<=factArray.length){
-    factArray[i]=factArray[i]+"!!!";
+    factArray[count]=factArray[count]+"!!!";
     ++count;
   }
 return factArray

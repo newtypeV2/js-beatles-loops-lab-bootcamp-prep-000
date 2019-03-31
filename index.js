@@ -11,10 +11,10 @@ return array
 function johnLennonFacts(factArray){
   var count = 0
   while(count<factArray.length){
-    array[i]=factArray[i]+"!!!";
+    factArray[i]=factArray[i]+"!!!";
     ++count;
   }
-return array
+return factArray
 }
 
 
